@@ -1,23 +1,22 @@
 <template>
   <div>
-    <element-view></element-view>
+    <!-- <element-view></element-view> -->
+    <emp-view></emp-view>
   </div>
 </template>
 
 <script>
-import ElementView from './views/element/ElementView.vue';
+// import ElementView from "./views/element/ElementView.vue";
+import EmpView from "./views/tlias/EmpView.vue";
 export default {
-  components: { ElementView },
-    data() {
-        return {
-            message: "hello"
-        }
-    },
-    methods: {
-
-    }
-}
+  components: { /* ElementView, */ EmpView },
+  data() {
+    return {
+      message: "hello",
+    };
+  },
+  methods: {},
+};
 </script>
 <style>
-
 </style>
